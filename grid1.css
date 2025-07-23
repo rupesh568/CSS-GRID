@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    border: 2px solid yellow;
+    grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+.grid-1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: red;
+    border: 2px solid black;
+}
+.grid-4{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: yellow;
+    border: 2px solid black;;
+}

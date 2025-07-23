@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    border: 2px solid black;
+    grid-template-areas: "nav nav nav"
+                         "side article article"
+                         "footer footer footer";
+                         
+    
+}
+.box{
+    border: 2px solid yellow;
+    height: 20px;
+    
+}
+.grid-1{
+    grid-area: nav;
+    background-color: red;
+}
+.grid-2{
+    grid-area: side;
+    background-color: blue;
+}
+.grid-3{
+    grid-area: article;
+    background-color: brown;
+}
+.grid-4{
+    grid-area: footer;
+    background-color: aquamarine;
+}
+.grid-5{
+    grid-area: nav;
+}
