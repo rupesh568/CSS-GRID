@@ -1,0 +1,14 @@
+#container{
+    border: 2px solid black;;
+    display: grid;
+    width: 80vw;
+    height: 50vw;
+    grid-template-columns: repeat(4,80px);
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border: 2px solid yellow;
+}

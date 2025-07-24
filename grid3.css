@@ -1,0 +1,26 @@
+#container{
+    display: grid;
+    width: 81vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 2px solid red;
+    row-gap: 10px;
+    column-gap: 25px;
+    justify-items: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.div{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+.grid-11{
+    justify-self: flex-end;
+    align-self: flex-start;
+}
